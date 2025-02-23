@@ -23,7 +23,7 @@ if (isset($argv[1])) {
     $dominio = $argv[1];
     enumerarDNS($dominio);
 } else {
-    echo "Por favor, forneça um domínio como argumento.\n";
+    echo "Por favor, Digite o domínio como argumento.\n";
     echo "Exemplo de uso: php dns_enumerador.php exemplo.com\n";
 }
 ?>
